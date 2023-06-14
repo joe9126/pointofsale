@@ -1,0 +1,252 @@
+.modal{
+    display:none;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .8)
+        url('http://localhost/pointofsale/public/assets/images/loading.gif')
+        50% 50%
+        no-repeat;
+        background-size: 80px 80px;
+}
+body.loading .modal{
+    overflow: hidden;
+}
+body.loading .modal {
+    display: block;
+}
+
+.row{
+	position: relative;
+	top:0;
+}
+.search-input{
+	border-radius: 8px;
+	border: 1px solid #cecfcf;
+	width: 400px;
+	height: 30px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-top: 8px;
+	margin-bottom: auto;
+	background-size: 20px 20px;
+	background-position: 5px 5px;
+	text-indent: 30px;
+	}
+	.userprofileaction{
+		position: absolute;
+		right: 10px;
+		top: 50px;
+		border-radius: 4px;
+		box-shadow: 5px 5px 15px -7px gray;
+		width: 150px;
+		min-height: 80px;
+		z-index: 1000;
+		display: none;
+			}
+	.useraction{
+		font-family: Open Sans;
+		font-size: 10px;
+		color: #545455;
+		/*transition: all .2s ease-in-out;*/
+		text-decoration: none;
+		text-indent: 10px;
+		display: inline-block;
+	}
+	.useraction:hover{
+		color: #0a18a4;
+		/*transform: scale(1.1);*/
+	}
+	.userprofileicon{
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background-color: gray;
+		margin-top: 5px;
+		display: inline-block;
+		float: right;
+		transition: all .2s ease-in-out;
+	}
+	.bell{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		margin-top: 5px;
+		float: right;
+		font-size: 25px;
+		transition: all .2s ease-in-out;
+			}
+	.bell:hover, .userprofileicon:hover{
+		color:#0a18a4;
+		transform: scale(1.1);
+		}
+	
+.logospan{
+	background-image:url('assets/images/happa.png'); 
+	background-repeat: no-repeat;
+	background-size: 150px 40px;
+	background-color:  inherit;/*#0a18a4;*/
+	margin-left: auto;
+	margin-right: auto;
+	border-top-right-radius: 8px; 
+	height: 80px;
+	border-bottom: 1px solid #dddddf;
+}
+
+.vertical-menu {
+  width: 105%; /* Set a width if you like */
+  background-color:inherit;
+  margin-top: 20px;
+}
+
+.vertical-menu a{
+  background-color: inherit; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  height: 70px;
+  text-align: left;
+  font-family: Open Sans;
+  font-size: 12px;
+}
+.fa{
+	font-size: 25px;
+}
+
+.vertical-menu a:hover {
+  background-color: #0a18a4; /* Dark grey background on mouse-over */
+  color: white;
+  opacity: 0.5
+}
+
+.vertical-menu a.active {
+ background-color: #0a18a4; /* Dark grey background on mouse-over */
+  color: white;
+  opacity: 0.5
+}
+a.menu-item{
+
+}
+.divider{
+	width: 200px;
+	height: 2px;
+	background-color:  #cecfcf;
+	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.guidetext{
+	font-family: Open Sans;
+	color: gray;
+	font-size: 12px;;
+	font-weight: bold;
+	text-align: left;
+	overflow: normal;
+	margin-left: 5px;
+}
+#contactus{
+	border:1px solid #cecfcf;
+	float: right;
+	margin-right: 10px;
+	font-size: 9px;
+}
+.guideimage{
+	background-image: url('images/guideimage.jpeg');
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 180px;
+	height:130px;
+	background-size: 170px 130px;
+	background-repeat: no-repeat;
+}
+.userprofileicon{
+	background-image: url('assets/images/usericon.jpeg');
+	background-repeat: no-repeat;
+	background-size: 43px 43px;
+	position: relative;
+	top: 0;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  width: 1120px;
+  background-color:inherit; 
+}
+
+.tabtitle{
+	margin-left: 40px;
+	font-family: Open Sans;
+	font-size: 15px;
+}
+.userstablecontainer{
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	/*box-shadow:  5px 5px 15px -7px gray;*/
+	background-color: inherit;
+}
+table{
+	margin: 10px 5px 10px 5px;
+	
+}
+table thead tr th, table tbody tr td{
+	font-family: Open Sans;
+	color:  #464545;
+	font-size: 12px;
+	text-align: left;
+}
+table tbody tr:hover{
+	color: white;#fff;
+	background-color:  #6e59f5;
+}
+.dt-button, .productstable_filter{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.fa-circle{
+	font-size: 8px;
+	/*opacity: 0.5;*/
+}
+.fa{
+	/*color:#0a18a4;*/
+	font-size: 30px;
+}
+.fa-plus-square{
+	font-size: 20px;
+}
+a.menuitem:hover, a.active{
+	color: #fff;
+	font-weight: bold;
+}
+
+.fa-eye{
+	color: #33bbff ;
+}
+
+table thead tr th{
+	font-size: 11px;
+	font-family: Open Sans;
+}
+table tbody tr{
+	font-family: Open Sans;
+	font-size: 11px;
+}
+tr:hover td{
+	background-color: #0a18a4; /* Dark grey background on mouse-over */
+  color: white;
+  opacity: 0.5
+	}
